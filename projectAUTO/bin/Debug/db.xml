@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<db>
+  <brands>
+    <brand id="1" name="KIA" countryProducing="2" />
+    <brand id="0" name="Hyndai" countryProducing="2" />
+    <brand id="2" name="BMW" countryProducing="7" />
+    <brand id="3" name="Toyota" countryProducing="3" />
+    <brand id="4" name="LADA" countryProducing="4" />
+    <brand id="5" name="FORD" countryProducing="1" />
+    <brand id="6" name="RENO" countryProducing="6" />
+    <brand id="7" name="Volkswagen" countryProducing="7" />
+    <brand id="8" name="LandRover" countryProducing="5" />
+    <brand id="9" name="Alfaromeo" countryProducing="8" />
+    <brand id="10" name="Skoda" countryProducing="9" />
+    <brand id="11" name="TESLA" countryProducing="1" />
+  </brands>
+  <models>
+    <model id="1" name="РИО" yearofissue="2019" cartype="1" transmission="1" enginesType="1" id_brand="0" />
+    <model id="2" name="M5" yearofissue="2021" cartype="0" transmission="2" enginesType="1" id_brand="2" />
+    <model id="3" name="LandCruser 200" yearofissue="2020" cartype="5" transmission="3" enginesType="2" id_brand="3" />
+    <model id="4" name="Vesta" yearofissue="2021" cartype="2" transmission="3" enginesType="1" id_brand="4" />
+    <model id="5" name="FOCUS" yearofissue="2020" cartype="1" transmission="3" enginesType="1" id_brand="5" />
+    <model id="6" name="Arcana" yearofissue="2021" cartype="4" transmission="2" enginesType="1" id_brand="6" />
+    <model id="7" name="GOLF" yearofissue="2021" cartype="1" transmission="1" enginesType="1" id_brand="7" />
+    <model id="8" name="DEFENDER" yearofissue="2021" cartype="4" transmission="1" enginesType="2" id_brand="8" />
+    <model id="9" name="stelvio" yearofissue="2021" cartype="4" transmission="1" enginesType="4" id_brand="9" />
+    <model id="10" name="Octavia" yearofissue="2019" cartype="0" transmission="2" enginesType="1" id_brand="10" />
+    <model id="11" name="model 3" yearofissue="2021" cartype="0" transmission="1" enginesType="3" id_brand="11" />
+  </models>
+  <cars>
+    <car id="1" carnew="True" color="black" engineCapacity="1" horsepower="136" price="1200000" vin="876543" odo="900" id_model="1" />
+    <car id="2" carnew="True" color="blue" engineCapacity="4" horsepower="249" price="4700000" vin="981234" odo="634" id_model="2" />
+    <car id="3" carnew="True" color="grey" engineCapacity="3" horsepower="249" price="3400000" vin="976333" odo="460" id_model="3" />
+    <car id="4" carnew="True" color="green" engineCapacity="1" horsepower="126" price="687000" vin="126333" odo="5880" id_model="4" />
+    <car id="5" carnew="True" color="red" engineCapacity="1" horsepower="149" price="1300000" vin="456303" odo="1203" id_model="5" />
+    <car id="6" carnew="False" color="red" engineCapacity="1" horsepower="136" price="907000" vin="116993" odo="4908" id_model="6" />
+    <car id="7" carnew="True" color="yellow" engineCapacity="1" horsepower="136" price="1450000" vin="206994" odo="231" id_model="7" />
+    <car id="8" carnew="True" color="grey" engineCapacity="2" horsepower="236" price="2300000" vin="112364" odo="334" id_model="8" />
+    <car id="9" carnew="True" color="red" engineCapacity="2" horsepower="236" price="2500000" vin="149130" odo="221" id_model="9" />
+    <car id="10" carnew="False" color="black" engineCapacity="1" horsepower="149" price="820000" vin="876541" odo="26004" id_model="10" />
+    <car id="11" carnew="True" color="red" engineCapacity="0" horsepower="262" price="4830000" vin="543781" odo="26" id_model="11" />
+  </cars>
+</db>
